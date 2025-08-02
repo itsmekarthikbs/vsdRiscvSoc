@@ -204,15 +204,14 @@ GCC_VLEN: 5
 
 ---
 
-## 📸 Implementation Screenshots
+## 📸 Implementation Output
 
-Below are the screenshots from the setup and execution process:
+<img width="955" alt="Spike Output" src="https://raw.githubusercontent.com/itsmekarthikbs/vsdRiscvSoc/refs/heads/main/Screenshot%202025-08-02%20230451.png" />
 
-![Screenshot 1](<img width="848" height="750" alt="Image" src="https://github.com/user-attachments/assets/9df09851-9a7e-415b-8496-dab98ea65504" />)
+<img width="1272" alt="GCC Version" src="https://raw.githubusercontent.com/itsmekarthikbs/vsdRiscvSoc/refs/heads/main/Screenshot%202025-08-02%20234957.png" />
 
-![Screenshot 2]([https://github.com/karthikbs/vsd-riscv-toolchain/assets/your-image-hash-2](https://github.com/itsmekarthikbs/vsdRiscvSoc/blob/d70edb24f7ceb52e468df7590f34b3c08973661a/Screenshot%202025-08-02%20234957.png))
+<img width="1210" alt="Sanity Check" src="https://raw.githubusercontent.com/itsmekarthikbs/vsdRiscvSoc/refs/heads/main/Screenshot%202025-08-02%20235024.png" />
 
-![Screenshot 3]([https://github.com/karthikbs/vsd-riscv-toolchain/assets/your-image-hash-3](https://github.com/itsmekarthikbs/vsdRiscvSoc/blob/900e52ea6a61932039a4f3af81ab29502f71daed/Screenshot%202025-08-02%20235024.png))
 
 
 
