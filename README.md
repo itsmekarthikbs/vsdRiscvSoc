@@ -206,7 +206,7 @@ GCC_VLEN: 5
 
 ## 📸 Implementation Output
 
-<img width="955" alt="Spike Output" src="https://raw.githubusercontent.com/itsmekarthikbs/vsdRiscvSoc/refs/heads/main/Screenshot%202025-08-02%20230451.png" />
+<img width="955" alt="Spike Output" src="https://raw.githubusercontent.com/itsmekarthikbs/vsdRiscvSoc/refs/heads/main/FINAL%20OUTPUT.png" />
 
 <img width="1272" alt="GCC Version" src="https://raw.githubusercontent.com/itsmekarthikbs/vsdRiscvSoc/refs/heads/main/Screenshot%202025-08-02%20234957.png" />
 
