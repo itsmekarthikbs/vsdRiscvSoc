@@ -212,7 +212,7 @@ Below are the screenshots from the setup and execution process:
 
 ![Screenshot 2]([https://github.com/karthikbs/vsd-riscv-toolchain/assets/your-image-hash-2](https://github.com/itsmekarthikbs/vsdRiscvSoc/blob/d70edb24f7ceb52e468df7590f34b3c08973661a/Screenshot%202025-08-02%20234957.png))
 
-![Screenshot 3](https://github.com/karthikbs/vsd-riscv-toolchain/assets/your-image-hash-3)
+![Screenshot 3]([https://github.com/karthikbs/vsd-riscv-toolchain/assets/your-image-hash-3](https://github.com/itsmekarthikbs/vsdRiscvSoc/blob/900e52ea6a61932039a4f3af81ab29502f71daed/Screenshot%202025-08-02%20235024.png))
 
 
 
