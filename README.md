@@ -208,7 +208,7 @@ GCC_VLEN: 5
 
 Below are the screenshots from the setup and execution process:
 
-![Screenshot 1]([https://github.com/karthikbs/vsd-riscv-toolchain/assets/your-image-hash-1](https://github.com/itsmekarthikbs/vsdRiscvSoc/blob/36ef2064dbe73dcfbd6491efe219e42eb1ebfb1e/Screenshot%202025-08-02%20230451.png))
+![image alt]([https://github.com/karthikbs/vsd-riscv-toolchain/assets/your-image-hash-1](https://github.com/itsmekarthikbs/vsdRiscvSoc/blob/36ef2064dbe73dcfbd6491efe219e42eb1ebfb1e/Screenshot%202025-08-02%20230451.png))
 
 ![Screenshot 2]([https://github.com/karthikbs/vsd-riscv-toolchain/assets/your-image-hash-2](https://github.com/itsmekarthikbs/vsdRiscvSoc/blob/d70edb24f7ceb52e468df7590f34b3c08973661a/Screenshot%202025-08-02%20234957.png))
 
