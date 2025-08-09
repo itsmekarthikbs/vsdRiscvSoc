@@ -1,28 +1,15 @@
-#include <stdio.h>
 #include "unique.h"
 
-int find_max(int arr[], int size) {
-    int max = arr[0];
-    for (int i = 1; i < size; i++) {
-        if (arr[i] > max) {
-            max = arr[i];
-        }
+int main(void) {
+    uniq_print_header("max_array"); // Prints identity info
+
+    int a[] = {42, -7, 19, 88, 3, 88, 5, -100, 37};
+    int n = sizeof(a) / sizeof(a[0]);
+    int max = a[0];
+    for (int i = 1; i < n; i++) {
+        if (a[i] > max) max = a[i];
     }
-    return max;
-}
 
-int main() {
-    int numbers[] = {12, 45, 7, 89, 34, 56, 99, 23};
-    int size = sizeof(numbers) / sizeof(numbers[0]);
-
-    printf("Maximum value in array = %d\n", find_max(numbers, size));
-
-    printf("User: %s\n", USERNAME);
-    printf("Host: %s\n", HOSTNAME);
-    printf("Machine ID: %s\n", MACHINE_ID);
-    printf("Timestamp: %s\n", TIMESTAMP);
-    printf("Epoch Time: %s\n", EPOCH_TIME);
-
+    printf("Array length=%d, Max=%d\n", n, max);
     return 0;
 }
-
