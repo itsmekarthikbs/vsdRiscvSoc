@@ -1,41 +1,28 @@
-#include <stdio.h>
 #include "unique.h"
 
-void bubble_sort(int arr[], int n) {
-    for (int i = 0; i < n - 1; i++) {
-        for (int j = 0; j < n - i - 1; j++) {
-            if (arr[j] > arr[j + 1]) {
-                int temp = arr[j];
-                arr[j] = arr[j + 1];
-                arr[j + 1] = temp;
+void bubble(int *a, int n) {
+    for (int i = 0; i < n - 1; i++)
+        for (int j = 0; j < n - 1 - i; j++)
+            if (a[j] > a[j + 1]) {
+                int t = a[j];
+                a[j] = a[j + 1];
+                a[j + 1] = t;
             }
-        }
-    }
 }
 
-int main() {
-    int arr[] = {64, 34, 25, 12, 22, 11, 90};
-    int n = sizeof(arr) / sizeof(arr[0]);
+int main(void) {
+    uniq_print_header("bubble_sort"); // Prints identity info
 
-    printf("Original array: ");
+    int a[] = {64, 34, 25, 12, 22, 11, 90};
+    int n = sizeof(a) / sizeof(a[0]);
+
+    bubble(a, n);
+
+    printf("Sorted array:");
     for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
+        printf(" %d", a[i]);
     }
     printf("\n");
-
-    bubble_sort(arr, n);
-
-    printf("Sorted array: ");
-    for (int i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
-    }
-    printf("\n");
-
-    printf("User: %s\n", USERNAME);
-    printf("Host: %s\n", HOSTNAME);
-    printf("Machine ID: %s\n", MACHINE_ID);
-    printf("Timestamp: %s\n", TIMESTAMP);
-    printf("Epoch Time: %s\n", EPOCH_TIME);
 
     return 0;
 }
