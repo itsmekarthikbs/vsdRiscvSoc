@@ -213,6 +213,72 @@ GCC_VLEN: 5
 <img width="1210" alt="Sanity Check" src="https://raw.githubusercontent.com/itsmekarthikbs/vsdRiscvSoc/refs/heads/main/Screenshot%202025-08-02%20235024.png" />
 
 
+# Task 2: Local RISC-V Verification
+
+## Programs Implemented
+1. **factorial.c** – Recursive factorial calculation
+2. **max_array.c** – Array maximum value finder
+3. **bitops.c** – Bitwise operations demonstration
+4. **bubble_sort.c** – Bubble sort implementation
+
+---
+
+## Assembly Generation Examples
+
+<img width="536" height="300" alt="factorial_main" src="factorial_main_objdump.txt.png" />
+
+*Disassembled main function from factorial.c showing RISC-V instructions*
+
+<img width="536" height="703" alt="max_array_main" src="max_array_main_objdump.txt.png" />
+
+*Disassembled main function from max_array.c*
+
+<img width="536" height="662" alt="bitops_main" src="bitops_main_objdump.txt.png" />
+
+*Disassembled main function from bitops.c*
+
+<img width="536" height="662" alt="bubble_sort_main" src="bubble_sort_main_objdump.txt.png" />
+
+*Disassembled main function from bubble_sort.c*
+
+---
+
+## Program Outputs
+
+<img width="348" height="322" alt="factorial_output" src="factorial output.png" />
+
+*Factorial program output*
+
+<img width="348" height="315" alt="maxarray_output" src="maxarray output.png" />
+
+*Max array program output*
+
+<img width="348" height="404" alt="bitops_output" src="bitops output.png" />
+
+*Bitwise operations program output*
+
+<img width="348" height="317" alt="bubble_sort_output" src="bubblesort output.png" />
+
+*Bubble sort program output*
+
+---
+
+## Instruction Decoding
+
+### RISC-V Instruction Decoding Table
+![instruction_decoding](screenshots/instruction_decoding.png)
+
+---
+
+## Toolchain Information
+
+```bash
+$ spike --version
+Spike RISC-V ISA Simulator 1.1.0-dev
+
+$ riscv64-unknown-elf-gcc -v
+gcc version 8.3.0 (riscv64-unknown-elf)
+
 
 
 ## 👨‍💻 Author
