@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "unique.h"
 
 unsigned long long factorial(int n) {
@@ -11,15 +10,10 @@ unsigned long long factorial(int n) {
 }
 
 int main() {
-    int num = 10; // You can change this if you want
-    printf("Factorial of %d = %llu\n", num, factorial(num));
+    uniq_print_header("factorial"); // Prints identity info
 
-    printf("User: %s\n", USERNAME);
-    printf("Host: %s\n", HOSTNAME);
-    printf("Machine ID: %s\n", MACHINE_ID);
-    printf("Timestamp: %s\n", TIMESTAMP);
-    printf("Epoch Time: %s\n", EPOCH_TIME);
+    int num = 10; 
+    printf("Factorial of %d = %llu\n", num, factorial(num));
 
     return 0;
 }
-
