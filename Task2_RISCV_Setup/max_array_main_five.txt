@@ -1,0 +1,5 @@
+  72:	7139                	addi	sp,sp,-64
+  74:	fc06                	sd	ra,56(sp)
+  76:	f822                	sd	s0,48(sp)
+  78:	0080                	addi	s0,sp,64
+  7a:	000007b7          	lui	a5,0x0

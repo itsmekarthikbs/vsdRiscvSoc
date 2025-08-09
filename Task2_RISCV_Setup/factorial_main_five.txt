@@ -1,0 +1,5 @@
+  5e:	1101                	addi	sp,sp,-32
+  60:	ec06                	sd	ra,24(sp)
+  62:	e822                	sd	s0,16(sp)
+  64:	1000                	addi	s0,sp,32
+  66:	47a9                	li	a5,10

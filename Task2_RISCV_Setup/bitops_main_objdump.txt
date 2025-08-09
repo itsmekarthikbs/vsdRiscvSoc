@@ -1,0 +1,63 @@
+00000000000000cc <main>:
+  cc:	1101                	addi	sp,sp,-32
+  ce:	ec06                	sd	ra,24(sp)
+  d0:	e822                	sd	s0,16(sp)
+  d2:	1000                	addi	s0,sp,32
+  d4:	47a9                	li	a5,10
+  d6:	fef42623          	sw	a5,-20(s0)
+  da:	fec42783          	lw	a5,-20(s0)
+  de:	85be                	mv	a1,a5
+  e0:	000007b7          	lui	a5,0x0
+  e4:	00078513          	mv	a0,a5
+  e8:	00000097          	auipc	ra,0x0
+  ec:	000080e7          	jalr	ra # e8 <main+0x1c>
+  f0:	fec42783          	lw	a5,-20(s0)
+  f4:	4585                	li	a1,1
+  f6:	853e                	mv	a0,a5
+  f8:	00000097          	auipc	ra,0x0
+  fc:	000080e7          	jalr	ra # f8 <main+0x2c>
+ 100:	87aa                	mv	a5,a0
+ 102:	fef42623          	sw	a5,-20(s0)
+ 106:	fec42783          	lw	a5,-20(s0)
+ 10a:	85be                	mv	a1,a5
+ 10c:	000007b7          	lui	a5,0x0
+ 110:	00078513          	mv	a0,a5
+ 114:	00000097          	auipc	ra,0x0
+ 118:	000080e7          	jalr	ra # 114 <main+0x48>
+ 11c:	fec42783          	lw	a5,-20(s0)
+ 120:	458d                	li	a1,3
+ 122:	853e                	mv	a0,a5
+ 124:	00000097          	auipc	ra,0x0
+ 128:	000080e7          	jalr	ra # 124 <main+0x58>
+ 12c:	87aa                	mv	a5,a0
+ 12e:	fef42623          	sw	a5,-20(s0)
+ 132:	fec42783          	lw	a5,-20(s0)
+ 136:	85be                	mv	a1,a5
+ 138:	000007b7          	lui	a5,0x0
+ 13c:	00078513          	mv	a0,a5
+ 140:	00000097          	auipc	ra,0x0
+ 144:	000080e7          	jalr	ra # 140 <main+0x74>
+ 148:	fec42783          	lw	a5,-20(s0)
+ 14c:	4581                	li	a1,0
+ 14e:	853e                	mv	a0,a5
+ 150:	00000097          	auipc	ra,0x0
+ 154:	000080e7          	jalr	ra # 150 <main+0x84>
+ 158:	87aa                	mv	a5,a0
+ 15a:	fef42623          	sw	a5,-20(s0)
+ 15e:	fec42783          	lw	a5,-20(s0)
+ 162:	85be                	mv	a1,a5
+ 164:	000007b7          	lui	a5,0x0
+ 168:	00078513          	mv	a0,a5
+ 16c:	00000097          	auipc	ra,0x0
+ 170:	000080e7          	jalr	ra # 16c <main+0xa0>
+ 174:	fec42783          	lw	a5,-20(s0)
+ 178:	4589                	li	a1,2
+ 17a:	853e                	mv	a0,a5
+ 17c:	00000097          	auipc	ra,0x0
+ 180:	000080e7          	jalr	ra # 17c <main+0xb0>
+ 184:	87aa                	mv	a5,a0
+ 186:	c791                	beqz	a5,192 <.L10>
+ 188:	000007b7          	lui	a5,0x0
+ 18c:	00078793          	mv	a5,a5
+ 190:	a029                	j	19a <.L11>
+

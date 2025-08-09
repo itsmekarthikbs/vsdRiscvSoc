@@ -1,0 +1,55 @@
+000000000000005e <main>:
+  5e:	1101                	addi	sp,sp,-32
+  60:	ec06                	sd	ra,24(sp)
+  62:	e822                	sd	s0,16(sp)
+  64:	1000                	addi	s0,sp,32
+  66:	47a9                	li	a5,10
+  68:	fef42623          	sw	a5,-20(s0)
+  6c:	fec42783          	lw	a5,-20(s0)
+  70:	853e                	mv	a0,a5
+  72:	00000097          	auipc	ra,0x0
+  76:	000080e7          	jalr	ra # 72 <main+0x14>
+  7a:	872a                	mv	a4,a0
+  7c:	fec42783          	lw	a5,-20(s0)
+  80:	863a                	mv	a2,a4
+  82:	85be                	mv	a1,a5
+  84:	000007b7          	lui	a5,0x0
+  88:	00078513          	mv	a0,a5
+  8c:	00000097          	auipc	ra,0x0
+  90:	000080e7          	jalr	ra # 8c <main+0x2e>
+  94:	000007b7          	lui	a5,0x0
+  98:	00078593          	mv	a1,a5
+  9c:	000007b7          	lui	a5,0x0
+  a0:	00078513          	mv	a0,a5
+  a4:	00000097          	auipc	ra,0x0
+  a8:	000080e7          	jalr	ra # a4 <main+0x46>
+  ac:	000007b7          	lui	a5,0x0
+  b0:	00078593          	mv	a1,a5
+  b4:	000007b7          	lui	a5,0x0
+  b8:	00078513          	mv	a0,a5
+  bc:	00000097          	auipc	ra,0x0
+  c0:	000080e7          	jalr	ra # bc <main+0x5e>
+  c4:	000007b7          	lui	a5,0x0
+  c8:	00078593          	mv	a1,a5
+  cc:	000007b7          	lui	a5,0x0
+  d0:	00078513          	mv	a0,a5
+  d4:	00000097          	auipc	ra,0x0
+  d8:	000080e7          	jalr	ra # d4 <main+0x76>
+  dc:	000007b7          	lui	a5,0x0
+  e0:	00078593          	mv	a1,a5
+  e4:	000007b7          	lui	a5,0x0
+  e8:	00078513          	mv	a0,a5
+  ec:	00000097          	auipc	ra,0x0
+  f0:	000080e7          	jalr	ra # ec <main+0x8e>
+  f4:	000007b7          	lui	a5,0x0
+  f8:	00078593          	mv	a1,a5
+  fc:	000007b7          	lui	a5,0x0
+ 100:	00078513          	mv	a0,a5
+ 104:	00000097          	auipc	ra,0x0
+ 108:	000080e7          	jalr	ra # 104 <main+0xa6>
+ 10c:	4781                	li	a5,0
+ 10e:	853e                	mv	a0,a5
+ 110:	60e2                	ld	ra,24(sp)
+ 112:	6442                	ld	s0,16(sp)
+ 114:	6105                	addi	sp,sp,32
+ 116:	8082                	ret

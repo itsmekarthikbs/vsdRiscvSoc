@@ -1,0 +1,11 @@
+bbl loader
+Initial: 10
+After setting bit 1: 10
+After clearing bit 3: 2
+After toggling bit 0: 3
+Bit 2 is CLEAR
+User: ${U}
+Host: ${H}
+Machine ID: ${M}
+Timestamp: ${T}
+Epoch Time: ${E}

@@ -1,0 +1,7 @@
+bbl loader
+Factorial of 10 = 3628800
+User: ${U}
+Host: ${H}
+Machine ID: ${M}
+Timestamp: ${T}
+Epoch Time: ${E}

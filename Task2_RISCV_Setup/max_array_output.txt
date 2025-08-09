@@ -1,0 +1,7 @@
+bbl loader
+Maximum value in array = 99
+User: ${U}
+Host: ${H}
+Machine ID: ${M}
+Timestamp: ${T}
+Epoch Time: ${E}

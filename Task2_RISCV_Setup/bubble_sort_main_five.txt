@@ -1,0 +1,5 @@
+  d2:	7139                	addi	sp,sp,-64
+  d4:	fc06                	sd	ra,56(sp)
+  d6:	f822                	sd	s0,48(sp)
+  d8:	0080                	addi	s0,sp,64
+  da:	000007b7          	lui	a5,0x0

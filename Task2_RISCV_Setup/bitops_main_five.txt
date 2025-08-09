@@ -1,0 +1,5 @@
+  cc:	1101                	addi	sp,sp,-32
+  ce:	ec06                	sd	ra,24(sp)
+  d0:	e822                	sd	s0,16(sp)
+  d2:	1000                	addi	s0,sp,32
+  d4:	47a9                	li	a5,10

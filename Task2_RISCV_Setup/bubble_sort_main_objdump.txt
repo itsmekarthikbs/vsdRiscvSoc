@@ -1,0 +1,24 @@
+00000000000000d2 <main>:
+  d2:	7139                	addi	sp,sp,-64
+  d4:	fc06                	sd	ra,56(sp)
+  d6:	f822                	sd	s0,48(sp)
+  d8:	0080                	addi	s0,sp,64
+  da:	000007b7          	lui	a5,0x0
+  de:	00078793          	mv	a5,a5
+  e2:	6390                	ld	a2,0(a5)
+  e4:	6794                	ld	a3,8(a5)
+  e6:	6b98                	ld	a4,16(a5)
+  e8:	fcc43423          	sd	a2,-56(s0)
+  ec:	fcd43823          	sd	a3,-48(s0)
+  f0:	fce43c23          	sd	a4,-40(s0)
+  f4:	4f9c                	lw	a5,24(a5)
+  f6:	fef42023          	sw	a5,-32(s0)
+  fa:	479d                	li	a5,7
+  fc:	fef42223          	sw	a5,-28(s0)
+ 100:	000007b7          	lui	a5,0x0
+ 104:	00078513          	mv	a0,a5
+ 108:	00000097          	auipc	ra,0x0
+ 10c:	000080e7          	jalr	ra # 108 <main+0x36>
+ 110:	fe042623          	sw	zero,-20(s0)
+ 114:	a03d                	j	142 <.L8>
+

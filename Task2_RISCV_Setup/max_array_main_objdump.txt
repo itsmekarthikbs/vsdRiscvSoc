@@ -1,0 +1,65 @@
+0000000000000072 <main>:
+  72:	7139                	addi	sp,sp,-64
+  74:	fc06                	sd	ra,56(sp)
+  76:	f822                	sd	s0,48(sp)
+  78:	0080                	addi	s0,sp,64
+  7a:	000007b7          	lui	a5,0x0
+  7e:	00078793          	mv	a5,a5
+  82:	6390                	ld	a2,0(a5)
+  84:	6794                	ld	a3,8(a5)
+  86:	6b98                	ld	a4,16(a5)
+  88:	6f9c                	ld	a5,24(a5)
+  8a:	fcc43423          	sd	a2,-56(s0)
+  8e:	fcd43823          	sd	a3,-48(s0)
+  92:	fce43c23          	sd	a4,-40(s0)
+  96:	fef43023          	sd	a5,-32(s0)
+  9a:	47a1                	li	a5,8
+  9c:	fef42623          	sw	a5,-20(s0)
+  a0:	fec42703          	lw	a4,-20(s0)
+  a4:	fc840793          	addi	a5,s0,-56
+  a8:	85ba                	mv	a1,a4
+  aa:	853e                	mv	a0,a5
+  ac:	00000097          	auipc	ra,0x0
+  b0:	000080e7          	jalr	ra # ac <main+0x3a>
+  b4:	87aa                	mv	a5,a0
+  b6:	85be                	mv	a1,a5
+  b8:	000007b7          	lui	a5,0x0
+  bc:	00078513          	mv	a0,a5
+  c0:	00000097          	auipc	ra,0x0
+  c4:	000080e7          	jalr	ra # c0 <main+0x4e>
+  c8:	000007b7          	lui	a5,0x0
+  cc:	00078593          	mv	a1,a5
+  d0:	000007b7          	lui	a5,0x0
+  d4:	00078513          	mv	a0,a5
+  d8:	00000097          	auipc	ra,0x0
+  dc:	000080e7          	jalr	ra # d8 <main+0x66>
+  e0:	000007b7          	lui	a5,0x0
+  e4:	00078593          	mv	a1,a5
+  e8:	000007b7          	lui	a5,0x0
+  ec:	00078513          	mv	a0,a5
+  f0:	00000097          	auipc	ra,0x0
+  f4:	000080e7          	jalr	ra # f0 <main+0x7e>
+  f8:	000007b7          	lui	a5,0x0
+  fc:	00078593          	mv	a1,a5
+ 100:	000007b7          	lui	a5,0x0
+ 104:	00078513          	mv	a0,a5
+ 108:	00000097          	auipc	ra,0x0
+ 10c:	000080e7          	jalr	ra # 108 <main+0x96>
+ 110:	000007b7          	lui	a5,0x0
+ 114:	00078593          	mv	a1,a5
+ 118:	000007b7          	lui	a5,0x0
+ 11c:	00078513          	mv	a0,a5
+ 120:	00000097          	auipc	ra,0x0
+ 124:	000080e7          	jalr	ra # 120 <main+0xae>
+ 128:	000007b7          	lui	a5,0x0
+ 12c:	00078593          	mv	a1,a5
+ 130:	000007b7          	lui	a5,0x0
+ 134:	00078513          	mv	a0,a5
+ 138:	00000097          	auipc	ra,0x0
+ 13c:	000080e7          	jalr	ra # 138 <main+0xc6>
+ 140:	4781                	li	a5,0
+ 142:	853e                	mv	a0,a5
+ 144:	70e2                	ld	ra,56(sp)
+ 146:	7442                	ld	s0,48(sp)
+ 148:	6121                	addi	sp,sp,64
+ 14a:	8082                	ret
