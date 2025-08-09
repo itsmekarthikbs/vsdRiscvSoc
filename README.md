@@ -206,11 +206,11 @@ GCC_VLEN: 5
 
 ## 📸 Implementation Output
 
-<img width="955" alt="Spike Output" src="https://raw.githubusercontent.com/itsmekarthikbs/vsdRiscvSoc/refs/heads/main/FINAL%20OUTPUT.png" />
+<img width="848" height="750" alt="FINAL OUTPUT" src="https://github.com/user-attachments/assets/7aaf8cab-fc02-4f88-a0dd-17bcaa8043d1" />
 
-<img width="1272" alt="GCC Version" src="https://raw.githubusercontent.com/itsmekarthikbs/vsdRiscvSoc/refs/heads/main/Screenshot%202025-08-02%20234957.png" />
+<img width="946" height="776" alt="Screenshot 2025-08-02 234957" src="https://github.com/user-attachments/assets/5d0c91d7-810d-4622-8b7f-036b78c1e8d4" />
 
-<img width="1210" alt="Sanity Check" src="https://raw.githubusercontent.com/itsmekarthikbs/vsdRiscvSoc/refs/heads/main/Screenshot%202025-08-02%20235024.png" />
+<img width="920" height="729" alt="Screenshot 2025-08-02 235024" src="https://github.com/user-attachments/assets/c211862d-6bb6-4ddd-a038-8639771c4a1c" />
 
 
 # Task 2: Local RISC-V Verification
@@ -225,19 +225,19 @@ GCC_VLEN: 5
 
 ## Assembly Generation Examples
 
-<img width="536" height="300" alt="factorial_main" src="factorial_main_objdump.txt.png" />
+<img width="881" height="474" alt="factorial_main_objdump txt" src="https://github.com/user-attachments/assets/a8ab8df6-6287-451b-b7f6-1bec2c477dad" />
 
 *Disassembled main function from factorial.c showing RISC-V instructions*
 
-<img width="536" height="703" alt="max_array_main" src="max_array_main_objdump.txt.png" />
+<img width="776" height="865" alt="max_array_main_objdump txt" src="https://github.com/user-attachments/assets/a03c074c-f6e5-46b4-88eb-7b40fa560dc7" />
 
 *Disassembled main function from max_array.c*
 
-<img width="536" height="662" alt="bitops_main" src="bitops_main_objdump.txt.png" />
+<img width="855" height="865" alt="bitops_main_objdump txt" src="https://github.com/user-attachments/assets/e585e8c4-c65c-4b79-ab0f-09e02257f71b" />
 
 *Disassembled main function from bitops.c*
 
-<img width="536" height="662" alt="bubble_sort_main" src="bubble_sort_main_objdump.txt.png" />
+<img width="812" height="856" alt="bubble_sort_main_objdump txt" src="https://github.com/user-attachments/assets/9972f4cb-499e-4ed7-aaa0-e6d5cc0db643" />
 
 *Disassembled main function from bubble_sort.c*
 
@@ -245,19 +245,19 @@ GCC_VLEN: 5
 
 ## Program Outputs
 
-<img width="348" height="322" alt="factorial_output" src="factorial output.png" />
+<img width="620" height="251" alt="factorial output" src="https://github.com/user-attachments/assets/bd5b5bca-b05b-4d8e-87f2-999c3c54417d" />
 
 *Factorial program output*
 
-<img width="348" height="315" alt="maxarray_output" src="maxarray output.png" />
+<img width="659" height="231" alt="maxarray output" src="https://github.com/user-attachments/assets/1657204c-e88b-4e86-83db-98fc2083050c" />
 
 *Max array program output*
 
-<img width="348" height="404" alt="bitops_output" src="bitops output.png" />
+<img width="854" height="323" alt="bitops output" src="https://github.com/user-attachments/assets/eef92082-09a1-4484-885e-bba3925e07ab" />
 
 *Bitwise operations program output*
 
-<img width="348" height="317" alt="bubble_sort_output" src="bubblesort output.png" />
+<img width="681" height="250" alt="bubblesort output" src="https://github.com/user-attachments/assets/19de36e0-44b1-4ee1-971b-5cac40aaaf58" />
 
 *Bubble sort program output*
 
@@ -266,7 +266,9 @@ GCC_VLEN: 5
 ## Instruction Decoding
 
 ### RISC-V Instruction Decoding Table
-![instruction_decoding](screenshots/instruction_decoding.png)
+
+<img width="1053" height="276" alt="factorial_decoding md" src="https://github.com/user-attachments/assets/fbe660bc-f9a8-4e14-9960-0b47d707d3c8" />
+
 
 ---
 
